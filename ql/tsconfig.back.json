@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "lib": ["ESNext"],
+    "typeRoots": ["./node_modules/celebrate/lib", "./node_modules/@types"],
+    "paths": {
+      "@/*": ["./back/*"]
+    },
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "pretty": true,
+    "sourceMap": true,
+    "outDir": "./static/build",
+    "allowJs": true,
+    "noEmit": false,
+    "esModuleInterop": true
+  },
+  "include": ["./back/**/*"],
+  "exclude": ["node_modules"],
+  "files": ["./back/index.d.ts"]
+}

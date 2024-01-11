@@ -1,0 +1,6 @@
+version: 2.16.5
+changeLogLink: https://t.me/jiao_long/396
+publishTime: 2023-10-29 20:00
+changeLog: |
+  1. 修复注释或删除环境变量可能无效
+  2. 修复定时任务详情日志列表样式
